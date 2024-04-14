@@ -26,6 +26,8 @@ The Poisson distribution is the discrete probability distribution of the number 
 
 # Experiment :
 
+
+
 ![image](https://user-images.githubusercontent.com/103921593/230282876-f4a5afbf-cac1-4648-a1b0-c78840638a8e.png)
 
 # Program :
@@ -71,6 +73,8 @@ print("Table value of chi square at 1 level is %4.2f"%table_chi2)
 
  ```
 # Output : 
+
+
 ![231047601-98f95c3b-897b-402c-8a75-a6911567f6ab](https://github.com/lisianathiruselvan/Poisson_distribution/assets/119389971/a852d974-1632-49de-b342-ed1023128643)
 
 
