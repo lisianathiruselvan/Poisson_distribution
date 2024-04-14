@@ -31,12 +31,8 @@ The Poisson distribution is the discrete probability distribution of the number 
 
 # Program :
 ```
-Name: LISIANA T
-Reg No:212222240053
-##  f - frequency of x
-## sf - sum of frequency
-## pr - probability function for poisson distribution
-## xi - chi square test value
+DEVELOPED BY : VARSHA A
+Register Number: 212223220121
 
 import numpy as np
 import math
@@ -69,11 +65,15 @@ cal_chi2_sq=np.sum(xi)
 print("Calculated value of Chi square is %4.2f"%cal_chi2_sq)
 table_chi2=scipy.stats.chi2.ppf(1-.01,df=M)
 print("Table value of chi square at 1 level is %4.2f"%table_chi2)
+if cal_chi2_sq<table_chi2:
+    print("The given data can be fitted in poisson Distribution at 1% LOS")
+else:
+    print("The given data cannot be fitted in Poisson Distribution at 1% LOS")
 
  ```
 # Output : 
 
-![231047601-98f95c3b-897b-402c-8a75-a6911567f6ab](https://github.com/lisianathiruselvan/Poisson_distribution/assets/119389971/a852d974-1632-49de-b342-ed1023128643)
+![319192485-f0b1a23c-e4f7-4992-b58d-d3a460387737](https://github.com/lisianathiruselvan/Poisson_distribution/assets/119389971/870bd184-0663-4cdb-9a18-04ce5a964267)
 
 
 # Results
